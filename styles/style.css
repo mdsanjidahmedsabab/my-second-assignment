@@ -76,6 +76,8 @@ nav > div > ul {
 }
 .banner-description{
     margin-top: 0;
+    font-size:1.2rem;
+
 }
 
 .banner> img{
@@ -96,11 +98,13 @@ nav > div > ul {
 /* responsive for mobile useing media query */
 
 @media screen and (max-width:580px) {
+    
    .menu, .menu-2{
     display:none;
    }
    .banner{
     flex-direction: column-reverse;
+    margin-top:1.3rem;
     /* gap:28px ; */
    }
    .banner> img{
@@ -108,10 +112,14 @@ nav > div > ul {
    }
    .banner-title{
     margin-top: auto;
-    font-size:1rem ;
+    font-size:2rem ;
+
+   }
+   .banner-description{
+    font-size: 14px;
    }
    .banner-hero{
-    grid-template-columns: 1fr;
+    width:100% ;
    }
 
 
