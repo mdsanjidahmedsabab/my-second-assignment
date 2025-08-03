@@ -185,6 +185,51 @@ nav > div > ul {
     margin-top: 1rem;
 }
 
+/* flower and plant lover section style */
+.plant-lover-sec{
+    flex-direction: column;
+    max-width: 1140px;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    /* top: 100px; */
+    width: 100%;
+
+
+}
+.challenge-img{
+    text-align: center;
+    margin-bottom: -100px;
+    position: absolute;
+    top:-150px;
+    left:400px ;
+    
+
+    
+
+}
+
+.img-and-others{
+    align-items: center;
+}
+
+.others{
+    margin-left: 70px;
+
+}
+.others h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.others > ul >li{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+
+}
+
 /* challange for me */
 
 .bloom-plants{
@@ -209,8 +254,18 @@ nav > div > ul {
     align-items: center;
     /* text-align: center; */
     margin: 0 auto;
+    margin-bottom:120px ;
     color: white;
-    gap:10px ;
+    gap:30px ;
+}
+.bloom-plants h3, p{
+    margin: 0;
+}
+.ana-plants h3, p{
+    margin: 0;
+}
+.zabo-plants h3, p{
+    margin: 0;
 }
 
 .bloom-plants{
@@ -229,18 +284,10 @@ nav > div > ul {
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 0;
-    border-radius: 8px;
+    border-radius:14px;
 
 }
-.bloom-plants h3, p{
-    margin: 0;
-}
-.ana-plants h3, p{
-    margin: 0;
-}
-.zabo-plants h3, p{
-    margin: 0;
-}
+
 .ana-plants{
     display:flex;
     flex-direction: column;
@@ -255,7 +302,7 @@ nav > div > ul {
     font-weight: bold;
     font-size:1.2rem;
     margin-top: 0;
-    border-radius: 8px;
+    border-radius:14px;
 }
 .zabo-plants{
     display:flex;
@@ -270,7 +317,7 @@ nav > div > ul {
     /* padding: 65px 0; */
     font-weight:bold ;
     font-size:2.5rem ;
-    border-radius: 14px;
+    border-radius:22px;
 }
 
 
@@ -318,6 +365,7 @@ nav > div > ul {
    .card-container{
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+    margin-bottom:40px;
    }
    .cards > img {
     width: 100%;
@@ -345,6 +393,27 @@ nav > div > ul {
     font-weight:bold ;
     font-size:1.2rem ;
     border-radius:8px;
+}
+.others{
+    margin: 0;
+    width: 100%;
+}
+
+.others h1{
+    font-size:30px;
+    margin-top: 10px;
+}
+
+.challenge-img{
+    display: none;
+}
+.img-and-others{
+    flex-direction: column;
+}
+.plant-lover-sec-img > img{
+    margin-top: 0;
+    width:100% ;
+
 }
     
 }
