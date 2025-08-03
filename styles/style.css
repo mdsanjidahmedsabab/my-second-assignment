@@ -360,9 +360,33 @@ nav > div > ul {
     padding: 20px 60px;
     margin-left:-5px ;
 }
-
-
-
+/* footer styles */
+.footer-sec{
+    max-width: 1120px;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap:6.875rem;
+    padding: 50px 160px;
+}
+.logo-and-description p{
+    width:400px;
+    /* height: 100%; */
+}
+.footer-menu-1{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.footer-menu-2{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.social-media{
+  display:grid;
+  gap:30px;
+    grid-template-columns:repeat(4,1fr) ;
+}
 
 
 /* responsive for mobile useing media query */
@@ -476,6 +500,24 @@ nav > div > ul {
     font-size: 16px;
     font-weight:600;
     padding: 19px 12px;
+}
+.footer-sec{
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+    /* padding: 0; */
+    width: 100%;
+    margin: 0;
+    gap: 30px;
+}
+.logo-and-description p{
+    width: 100%;
+    
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns:repeat(4,25px);
+    gap:30px;
 }
     
 }
