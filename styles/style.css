@@ -344,11 +344,18 @@ nav > div > ul {
 }
 #email{
     margin: 0;
-    width: 650px;
+    /* width: 650px; */
     padding: 20px 545px 20px 20px;
     font-size: 2rem;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     color:rgba(0, 0, 0, 0.5);
+}
+.join-sec-input{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
 }
 .join-sec-input > button {
     margin: 0;
@@ -358,7 +365,8 @@ nav > div > ul {
     font-size: 2rem;
     font-weight:600 ;
     padding: 20px 60px;
-    margin-left:-5px ;
+    /* margin-left:-5px ; */
+    /* margin-top: 10px; */
 }
 /* footer styles */
 .footer-sec{
